@@ -33,6 +33,14 @@ end
 return hash
 end
 
-
+# 2.5.5 :007 > key = :hello
+# => :hello 
+# 2.5.5 :008 > hash = { :hello => "there" }
+# => {:hello=>"there"} 
+# 2.5.5 :009 > hash[:key]
+# => nil 
+# 2.5.5 :010 > hash[key]
+# => "there" 
+# 2.5.5 :011 >
 
 
